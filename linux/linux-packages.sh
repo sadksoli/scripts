@@ -1,6 +1,7 @@
 sudo apt update
 
-sudo apt install dkms gcc -y
+#system-tools
+sudo apt install dkms cmake gcc -y
 
 sudo apt upgrade dpkg -y
 
