@@ -1,4 +1,6 @@
-sudo apt update
+#!/bin/bash
+
+sudo apt update -y
 
 
 sudo apt install flatpak -y
@@ -16,6 +18,7 @@ flatpak install flathub io.github.dvlv.boxbuddyrs
 flatpak install flathub org.gnome.Boxes
 
 flatpak install flathub io.missioncenter.MissionCenter
+
 
 #user-tools
 flatpak install flathub io.github.ungoogled_software.ungoogled_chromium
