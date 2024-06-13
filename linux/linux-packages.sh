@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo apt update -y
 
 #system-tools
