@@ -11,7 +11,7 @@ sudo dpkg --add-architecture i386
 sudo apt install dkms wget curl -y
 
 #building-components
-sudo apt install cmake build-essential libelf-dev linux-headers-`uname -r` gcc clang git meson g++ ninja-build -y
+sudo apt install cmake build-essential libelf-dev linux-headers-`uname -r` gcc clang git meson g++ mono ninja-build -y
 
 #user-tools
 sudo apt install gzip flatpak -y
