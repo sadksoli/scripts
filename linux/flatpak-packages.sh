@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt update -y
+sudo apt-get update -y
 
 
 sudo apt install flatpak -y
@@ -34,7 +34,7 @@ flatpak install flathub org.libreoffice.LibreOffice
 flatpak install flathub org.gimp.GIMP
 
 
-#games or win applications
+#games or win32 applications
 flatpak install flathub com.usebottles.bottles
 
 flatpak install flathub com.github.Matoking.protontricks
