@@ -7,17 +7,17 @@ sudo apt install flatpak -y
 
 
 #system-tools
-flatpak install flathub io.github.flattool.Warehouse
+sudo flatpak install flathub io.github.flattool.Warehouse
 
-flatpak install flathub com.github.tchx84.Flatseal
+sudo flatpak install flathub com.github.tchx84.Flatseal
 
-flatpak install flathub it.mijorus.gearlever
+sudo flatpak install flathub it.mijorus.gearlever
 
-flatpak install flathub io.github.dvlv.boxbuddyrs
+sudo flatpak install flathub io.github.dvlv.boxbuddyrs
 
-flatpak install flathub org.gnome.Boxes
+sudo flatpak install flathub org.gnome.Boxes
 
-flatpak install flathub io.missioncenter.MissionCenter
+sudo flatpak install flathub io.missioncenter.MissionCenter
 
 
 #user-tools
