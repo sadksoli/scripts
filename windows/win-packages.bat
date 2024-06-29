@@ -8,6 +8,7 @@ cls
 
 
 #system-tools
+winget install 
 
 
 #launchers
