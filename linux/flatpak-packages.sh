@@ -35,6 +35,8 @@ flatpak install flathub org.gimp.GIMP
 
 
 #games or win32 applications
-flatpak install flathub com.usebottles.bottles
+sudo flatpak install flathub com.usebottles.bottles
 
-flatpak install flathub com.github.Matoking.protontricks
+sudo flatpak install flathub com.github.Matoking.protontricks
+
+sudo flatpak install flathub net.lutris.Lutris
