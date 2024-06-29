@@ -4,7 +4,6 @@ sudo apt-get update -y
 sudo apt upgrade -y
 
 #dpkg
-sudo apt upgrade dpkg -y
 sudo dpkg --add-architecture i386
 
 
@@ -17,4 +16,4 @@ sudo apt install cmake build-essential libelf-dev linux-headers-`uname -r` gcc c
 
 
 #user-tools
-sudo apt install gzip wine winetricks -y
+sudo apt-get install gzip gparted wine winetricks -y
