@@ -8,7 +8,7 @@ sudo dpkg --add-architecture i386
 
 
 #system-tools
-sudo apt install repo git dkms wget curl zlib -y
+sudo apt install repo git git-man dkms wget curl zlib -y
 
 
 #building-components
