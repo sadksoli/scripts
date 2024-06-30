@@ -8,11 +8,11 @@ sudo dpkg --add-architecture i386
 
 
 #system-tools
-sudo apt install dkms wget curl -y
+sudo apt install repo git dkms wget curl -y
 
 
 #building-components
-sudo apt install cmake build-essential libelf-dev linux-headers-`uname -r` gcc clang git meson g++ mono-devel ninja-build -y
+sudo apt install cmake build-essential libelf-dev linux-headers-`uname -r` gcc g++ clang meson mono-devel ninja-build -y
 
 
 #user-tools
