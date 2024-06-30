@@ -16,4 +16,4 @@ sudo apt install cmake build-essential libelf-dev linux-headers-`uname -r` gcc g
 
 
 #user-tools
-sudo apt-get install gzip gparted wine winetricks -y
+sudo apt-get install bash-completion gzip gparted wine winetricks -y
