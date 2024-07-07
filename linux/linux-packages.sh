@@ -12,7 +12,7 @@ sudo apt install tar repo git git-man dkms wget curl fastfetch -y
 
 
 #building-components
-sudo apt-get install cmake build-essential libelf-dev linux-headers-`uname -r` gcc g++ clang meson mono-devel ninja-build -y
+sudo apt-get install cmake build-essential libelf-dev linux-headers-`uname -r` gcc gcc-g++ clang meson mono-devel ninja-build -y
 
 
 #user-tools
