@@ -1,6 +1,6 @@
 @echo off
 cd "%temp%"
-cls
+clear
 
 #downloading packages
 iwr -URL https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx -Outfile "%temp%\VCLibs.14.appx"
